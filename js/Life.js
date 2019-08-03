@@ -16,8 +16,8 @@ tag_cloud.each(function () {
 // 限制博客盒子的最低高度为浏览器可视区高度
 $('.blog-main').css('min-height',$(window).height());
  $('body').css('background',"Url('https://cdn.isweic.com/site-body-bg9.jpg') no-repeat center fixed")
-$('.blog-post-page-content').css('display','none')
-$('.blog-footer').css('display','none')
+// $('.blog-post-page-content').css('display','none')
+ $('.blog-footer').css('display','none')
 // 给文章页input添加class
 $('.blog-main-post').css('padding-bottom','1em')
 
