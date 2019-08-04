@@ -2,3 +2,16 @@ body{color:#58666e;font-family:"Exo 2","Trebuchet MS",Helvetica,Arial,'PingFang 
 h4{
     font-weight: 700
   }
+  .blog-post-block{
+    display: flex;
+    justify-content: center
+  }
+  .blog-post-block-img{
+      width: 300px;
+      border-radius: 10px;
+      padding: 1em;
+      overflow: hidden;
+  }
+  .blog-post-block-padding{
+      flex: 1;
+  }
